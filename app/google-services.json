@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "639825998947",
+    "firebase_url": "https://legym-2f5d8.firebaseio.com",
+    "project_id": "legym-2f5d8",
+    "storage_bucket": "legym-2f5d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639825998947:android:5551092398c5bc4b",
+        "android_client_info": {
+          "package_name": "example.angie.com.LeGym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639825998947-0705phrp3pbt2egu687jvnafbq0kln3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "example.angie.com.LeGym",
+            "certificate_hash": "44e6110823e15662e2dd3078fd60966304affe02"
+          }
+        },
+        {
+          "client_id": "639825998947-0mskt9ppvsm59o9h7hrn1pcrfq0lchr2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArB3DxF5ezIO4JroMFpLS9PFNIvYIf-wA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639825998947-0mskt9ppvsm59o9h7hrn1pcrfq0lchr2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,15 +7,15 @@
         <item
             android:id="@+id/nav_gyms"
             android:icon="@drawable/icon_treadmill"
-            android:title="@string/gyms" />
+            android:title="Locate Gyms" />
                <item
             android:id="@+id/nav_sessions"
             android:icon="@drawable/icon_sessions"
-            android:title="@string/sessions" />
+            android:title="Workout Seesions" />
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/icon_profile"
-            android:title="@string/profile" />
+            android:title="View your profile" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/icon_settings"

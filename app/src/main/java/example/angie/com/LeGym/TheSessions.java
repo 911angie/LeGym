@@ -1,7 +1,6 @@
 package example.angie.com.LeGym;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -9,21 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.dd.processbutton.iml.ActionProcessButton;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.model.LatLng;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 
 /**
  * Created by ADMIN on 6/26/2018.
  */
 
-public class CustomSessions extends RecyclerView.Adapter<CustomSessions.MyViewHolder> {
+public class TheSessions extends RecyclerView.Adapter<TheSessions.MyViewHolder> {
 
     Context context;
     Bundle extras;
@@ -42,7 +33,7 @@ public class CustomSessions extends RecyclerView.Adapter<CustomSessions.MyViewHo
         }
     }
 
-    public CustomSessions(Context context, ArrayList<Session> sessions, Bundle extras ) {
+    public TheSessions(Context context, ArrayList<Session> sessions, Bundle extras ) {
         this.context = context;
         this.sessions = sessions;
         this.extras = extras;
@@ -55,7 +46,7 @@ public class CustomSessions extends RecyclerView.Adapter<CustomSessions.MyViewHo
     }
 
     @Override
-    public void onBindViewHolder(CustomSessions.MyViewHolder holder, int position) {
+    public void onBindViewHolder(TheSessions.MyViewHolder holder, int position) {
         String months[] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
         String split_date[] = sessions.get(position).getDate().split("/");
         String month = months[ Integer.parseInt( split_date[0] ) - 1 ];

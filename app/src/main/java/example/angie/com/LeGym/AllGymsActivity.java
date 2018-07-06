@@ -114,7 +114,7 @@ public class AllGymsActivity extends AppCompatActivity implements OnMapReadyCall
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
-        CustomNearbyGyms customNearbyGyms = new CustomNearbyGyms(this, npNames, npCords, npLocation, npLocation, gmap, extras);
+        ClosebyGyms customNearbyGyms = new ClosebyGyms(this, npNames, npCords, npLocation, npLocation, gmap, extras);
         recyclerView.setAdapter(customNearbyGyms);
     }
 

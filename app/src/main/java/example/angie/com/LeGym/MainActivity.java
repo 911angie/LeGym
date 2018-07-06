@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
-        CustomSessions customSessions = new CustomSessions( this, sessions, extras );
+        TheSessions customSessions = new TheSessions( this, sessions, extras );
         recyclerView.setAdapter(customSessions);
     }
 }

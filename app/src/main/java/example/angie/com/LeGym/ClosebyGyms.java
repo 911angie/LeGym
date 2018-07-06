@@ -14,16 +14,13 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 
 /**
  * Created by ADMIN on 6/26/2018.
  */
 
-public class CustomNearbyGyms extends RecyclerView.Adapter<CustomNearbyGyms.MyViewHolder> {
+public class ClosebyGyms extends RecyclerView.Adapter<ClosebyGyms.MyViewHolder> {
 
     Context context;
     Bundle extras;
@@ -44,8 +41,8 @@ public class CustomNearbyGyms extends RecyclerView.Adapter<CustomNearbyGyms.MyVi
         }
     }
 
-    public CustomNearbyGyms(Context context, ArrayList<String> npNames, ArrayList<String> npCords, ArrayList<String> npLocation,
-                            ArrayList<String> npVicinity, GoogleMap map, Bundle extras ) {
+    public ClosebyGyms(Context context, ArrayList<String> npNames, ArrayList<String> npCords, ArrayList<String> npLocation,
+                       ArrayList<String> npVicinity, GoogleMap map, Bundle extras ) {
         this.context = context;
         this.npNames = npNames;
         this.npCords = npCords;
@@ -62,7 +59,7 @@ public class CustomNearbyGyms extends RecyclerView.Adapter<CustomNearbyGyms.MyVi
     }
 
     @Override
-    public void onBindViewHolder(CustomNearbyGyms.MyViewHolder holder, int position) {
+    public void onBindViewHolder(ClosebyGyms.MyViewHolder holder, int position) {
         global_pos = position;
         holder.gymName.setText( npNames.get(position) );
         holder.gymCoords.setText( npCords.get(position) );
